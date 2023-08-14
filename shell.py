@@ -1,3 +1,6 @@
+import interpreter
+
 while True:
   text = input('IO : ')
-  print(text)
+  words = interpreter.run(text)
+  print(words)
