@@ -3,7 +3,7 @@ ALPHABET = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 #WORDS
 
 class Word:
-  def __init__(self, value, type_ = 'WORD'):
+  def __init__(self, value = None, type_ = 'WORD'):
     self.type = type_
     self.value = value
 
